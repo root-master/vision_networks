@@ -2,6 +2,7 @@ import argparse
 
 from models.dense_net import DenseNet
 from data_providers.utils import get_data_provider_by_name
+from sys import exit
 
 train_params_cifar = {
     'batch_size': 64,
